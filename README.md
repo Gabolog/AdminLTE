@@ -5,10 +5,10 @@ objetivos:
 
 | inicio                                                     |     |
 | ---------------------------------------------------------- | --- |
-| Login no Sistema e Recuperação de Senha                    |     |
+| Login no Sistema e Recuperação de Senha                    |  50%   |
 | Cadastro de Usuários                                       |     |
 | Cadastro de Produtos                                       |     |
-| Cadastro de Clientes                                       |     |
+| Cadastro de Clientes                                       |   40¢  |
 | PDV Padrão                                                 |     |
 | PDV Diferencial (PDV com mais recursos)                    |     |
 | Relatórios de vendas                                       |     |

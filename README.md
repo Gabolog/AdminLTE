@@ -1,4 +1,4 @@
-Projeto para um curso
+Projeto para um curso</br>
 objetivos: 
-Criar paginas baseadas na versão de sistema anterior (20%)
-Tornar online (?)
+<p>Criar paginas baseadas na versão de sistema anterior (20%)</p>
+<p>Tornar online (?)</p>

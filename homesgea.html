@@ -1,0 +1,113 @@
+
+    <body>
+    <div id="app">
+        <div id="wrapper">
+            <nav class="navbar-default navbar-static-side" role="navigation">
+                <div class="sidebar-collapse">
+                    <ul class="nav metismenu" id="side-menu">
+                        <li class="nav-header">
+                            <div class="dropdown profile-element">
+                                <img alt="image" class="w-75 mb-3" src="./style/logo.png"/>
+                                <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                                    <span class="block m-t-xs font-bold">Thiago Ramos</span>
+                                    <span class="text-xs block">Franquia <b class="caret"></b></span>
+                                </a>
+                                <ul class="dropdown-menu animated fadeInRight m-t-xs">
+                                    
+                                    <li>
+                                        <a class="dropdown-item" href="/logout" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
+                                            <i class="fa fa-sign-out"></i> Sair
+                                        </a>
+                                    </li>
+                                </ul>
+                                <form id="logout-form" action="./logout.html" method="POST" style="display: none;">
+                                    <input type="hidden" name="_token" value="mRjHPgrvUWVVAOQ5adc2mVnxsPlqze2FHEG5FKRR">                                </form>
+                            </div>
+                            <div class="logo-element">
+                                EA Web
+                            </div>
+                        </li>
+                                                    <li>
+                                <a href="./list-student.html"><i class="fa fa-user fa-lx mr-2" aria-hidden="true"></i> <span class="nav-label">Alunos</span></a>
+                            </li>
+                                                
+                                                    <li>
+                                <a href="#"><i class="fa fa-book fa-lx mr-2" aria-hidden="true"></i> <span class="nav-label">Suprimentos</span><span class="fa arrow"></span></a>
+                                <ul class="nav nav-second-level collapse">
+                                    <li><a href="./list-supplies.html"><i class="fa fa-plus-square fa-lx mr-3" aria-hidden="true"></i> Cadastro</a></li>
+                                    <li><a href="./list-stock.html"><i class="fa fa-archive fa-lx mr-3" aria-hidden="true"></i> Estoque</a></li>
+                                </ul>
+                            </li>
+                        
+                                                    <li>
+                                <a href="./list-classroom.html"><i class="fa fa-users fa-lx mr-2" aria-hidden="true"></i> <span class="nav-label">Turmas</span>  </a>
+                            </li>
+                        
+                        
+                             <li>
+                                <a href="#"><i class="fa fa-bar-chart fa-lx mr-3" aria-hidden="true"></i> <span class="nav-label">Relatórios</span><span class="fa arrow"></span></a>
+                                <ul class="nav nav-second-level collapse">
+                                    <li>
+                                        <a href="./report-invoices.html"><i class="fa fa-file-text-o fa-lx mr-3" aria-hidden="true"></i> Faturas</a>
+                                    </li>
+                                    <li>
+                                        <a href="./report-sales.html"><i class="fa fa-area-chart fa-lx mr-3" aria-hidden="true"></i> Vendas</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        
+                                                                                    <li>
+                                    <a href="./pdv.html"><i class="fa fa-desktop fa-lx mr-2" aria-hidden="true"></i> <span class="nav-label">PDV</span></a>
+                                </li>
+                                                    
+                                                    <li>
+                                <a href="#"><i class="fa fa-money fa-lx mr-2" aria-hidden="true"></i> <span class="nav-label">Financeiro</span><span class="fa arrow"></span></a>
+                                <ul class="nav nav-second-level collapse">
+                                    <li>
+                                        <a href="./list-cashier.html"><i class="fa fa-bar-chart fa-lx mr-3" aria-hidden="true"></i> Fluxo de Caixa</a>
+                                    </li>
+                                </ul>
+                            </li>
+                                                
+                        
+                        
+                    </ul>
+                    
+                    <div class="nav-footer">
+                            <span class="nav-label">&copy; EA WEB 2022</span>
+                    </div>
+<!--barra lateral esquerda-->
+                </div>
+            </nav>
+        
+            <div id="page-wrapper" class="dashbard-1">
+                <div class="row">
+                    <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
+                        <div class="navbar-header">
+                            <a class="navbar-minimalize minimalize-styl-2 btn btn-primary btn-sidebar" href="#"><i class="fa fa-bars"></i> </a>
+                            <a class="navbar-brand" href="./index.html">EA</a>
+                        </div>
+                        <ul class="nav navbar-top-links navbar-right">
+                            <li>
+                                <h3 class="m-r-sm welcome-message">UNIDADE TAQUARA</h3>
+                            </li>
+                            
+                            
+                        </ul>
+                    </nav>
+                </div>
+                
+                <main>
+
+                    
+    
+
+
+                </main>
+
+            </div>
+        </div>
+    </div>
+</body>   
+
+</html>

@@ -4,5 +4,6 @@ objetivos:
 <div>
   <tbody>
     <tr>
+      <td>cadastro de alunos</td>
     </tr>
 <p>Tornar online (?)</p>

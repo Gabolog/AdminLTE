@@ -7,6 +7,7 @@ objetivos:
 | ---------------------------------------------------------- | --- |
 | Login no Sistema e Recuperação de Senha                    |  50%   |
 | Cadastro de Usuários                                       |     |
+|   1.1 Usuarios cadastrados recentemente                        |     |
 | Cadastro de Produtos                                       |     |
 | Cadastro de Clientes                                       |   40%  |
 | PDV Padrão                                                 |     |

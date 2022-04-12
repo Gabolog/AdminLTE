@@ -5,18 +5,21 @@ objetivos:
 
 | inicio                                                     |     |
 | ---------------------------------------------------------- | --- |
-| Login no Sistema e Recuperação de Senha                    |  50%   |
+| Login no Sistema e Recuperação de Senha                    | 50% |
 | Cadastro de Usuários                                       |     |
-|   1.1 Usuarios cadastrados recentemente                        |     |
+|   1.1 Usuarios cadastrados recentemente                    |     |
 | Cadastro de Produtos                                       |     |
-| Cadastro de Clientes                                       |   40%  |
+| Cadastro de Professores                                    |     |
+| Perfil de Professores                                      |     |
+| Cadastro de Clientes                                       | 80% |
+| Perfil de Clientes                                         |     |
 | PDV Padrão                                                 |     |
 | PDV Diferencial (PDV com mais recursos)                    |     |
 | Relatórios de vendas                                       |     |
-| Dashboard                                                  |     |
-| Pedidos                                                    |     |
 | Exportar relatórios para PDF                               |     |
 | Exportar relatórios para Excel                             |     |
 | Logs de Acessos                                            |     |
+| Dashboard                                                  |     |
+| Pedidos                                                    |     |
 
 <p>Tornar online (?)</p>

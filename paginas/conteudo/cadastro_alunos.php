@@ -286,12 +286,10 @@
                         <button type="button" class="btn btn-primary">Salvar Cadastro</button>
                       </div>
 
-                      </br>
                     </div>
                   </div>
                 </div>
             </div>
-          </div>
         </div>
     </section>
 

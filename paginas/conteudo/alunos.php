@@ -35,7 +35,7 @@
                     </br>
                     <div class="">
 
-                      <a href="#" class="btn btn-primary">Cadastrar Aluno</a>
+                      <a href="home.php?acao=cadastro_alunos" class="btn btn-primary">Cadastrar Aluno</a>
                     </div>
 
                   </div>
@@ -82,7 +82,7 @@
                           <td>13/04/2022</td>
                           <td>
                             <div class="btn-group">
-                              <a href="#" class="btn btn-success no-paddings" title="Editar Aluno"><i class="fas fa-user-edit"></i></a>
+                              <a href="home.php?acao=editar_alunos" class="btn btn-success no-paddings" title="Editar Aluno"><i class="fas fa-user-edit"></i></a>
                               <a href="#" class="btn btn-danger no-paddings" title="Excluir Aluno"><i class="fas fa-user-times"></i></a>
                             </div>
                           </td>
@@ -97,7 +97,7 @@
                           <td>14/04/2022</td>
                           <td>
                             <div class="btn-group">
-                              <a href="#" class="btn btn-success no-paddings" title="Editar Aluno"><i class="fas fa-user-edit"></i></a>
+                              <a href="home.php?acao=editar_alunos" class="btn btn-success no-paddings" title="Editar Aluno"><i class="fas fa-user-edit"></i></a>
                               <a href="#" class="btn btn-danger no-paddings" title="Excluir Aluno"><i class="fas fa-user-times"></i></a>
                             </div>
                           </td>
@@ -112,7 +112,7 @@
                           <td>15/04/2022</td>
                           <td>
                             <div class="btn-group">
-                              <a href="#" class="btn btn-success no-paddings" title="Editar Aluno"><i class="fas fa-user-edit"></i></a>
+                              <a href="home.php?acao=editar_alunos" class="btn btn-success no-paddings" title="Editar Aluno"><i class="fas fa-user-edit"></i></a>
                               <a href="#" class="btn btn-danger no-paddings" title="Excluir Aluno"><i class="fas fa-user-times"></i></a>
 
                             </div>
@@ -128,7 +128,7 @@
                           <td>16/04/2022</td>
                           <td>
                             <div class="btn-group">
-                              <a href="#" class="btn btn-success no-paddings" title="Editar Aluno"><i class="fas fa-user-edit"></i></a>
+                              <a href="home.php?acao=editar_alunos" class="btn btn-success no-paddings" title="Editar Aluno"><i class="fas fa-user-edit"></i></a>
                               <a href="#" class="btn btn-danger no-paddings" title="Excluir Aluno"><i class="fas fa-user-times"></i></a>
                             </div>
                           </td>
@@ -143,7 +143,7 @@
                           <td>17/04/2022</td>
                           <td>
                             <div class="btn-group">
-                              <a href="#" class="btn btn-success no-paddings" title="Editar Aluno"><i class="fas fa-user-edit"></i></a>
+                              <a href="home.php?acao=editar_alunos" class="btn btn-success no-paddings" title="Editar Aluno"><i class="fas fa-user-edit"></i></a>
                               <a href="#" class="btn btn-danger no-paddings" title="Excluir Aluno"><i class="fas fa-user-times"></i></a>
                             </div>
                           </td>

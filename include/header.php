@@ -149,13 +149,13 @@
               </a>
               <ul class="nav nav-treeview">
                 <li class="nav-item">
-                  <a href="./index2.html" class="nav-link">
+                  <a href="home.php?acao=alunos" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>
                     <p>Alunos</p>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a href="./index2.html" class="nav-link">
+                  <a href="home.php?acao=editar_alunos" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>
                     <p>Turmas</p>
                   </a>
@@ -163,7 +163,7 @@
               </ul>
             </li>
             <li class="nav-item">
-              <a href="./paginas/conteudo/list-student" class="nav-link">
+              <a href="home.php?acao=editar_alunos" class="nav-link">
                 <i class="nav-icon fas fa-box-open"></i>
                 <p>
                   Suprimentos
@@ -172,13 +172,13 @@
               </a>
               <ul class="nav nav-treeview">
                 <li class="nav-item">
-                  <a href="../pages/layout/top-nav.html" class="nav-link">
+                  <a href="home.php?acao=editar_alunos" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>
                     <p>Cadastrar</p>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a href="../pages/layout/top-nav-sidebar.html" class="nav-link">
+                  <a href="home.php?acao=editar_alunos" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>
                     <p>Estoque</p>
                   </a>
@@ -186,7 +186,7 @@
               </ul>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link" class="nav-link active">
+              <a href="home.php?acao=editar_alunos" class="nav-link" class="nav-link active">
                 <i class="nav-icon fas fa-chart-pie"></i>
                 <p>
                   Relatórios
@@ -196,14 +196,14 @@
               </a>
               <ul class="nav nav-treeview">
                 <li class="nav-item">
-                  <a href="../pages/layout/top-nav.html" class="nav-link">
+                  <a href="home.php?acao=editar_alunos" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>
                     <span class="badge badge-info right">2</span>
                     <p>Faturas</p>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a href="../pages/layout/top-nav-sidebar.html" class="nav-link">
+                  <a href="home.php?acao=editar_alunos" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>
                     <span class="badge badge-info right">4</span>
                     <p>Vendas</p>
@@ -212,7 +212,7 @@
               </ul>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link">
+              <a href="home.php?acao=editar_alunos" class="nav-link">
                 <i class="fas fa-money-bill nav-icon"></i>
                 <p>
                   Financeiro
@@ -221,13 +221,13 @@
               </a>
               <ul class="nav nav-treeview">
                 <li class="nav-item">
-                  <a href="../pages/charts/chartjs.html" class="nav-link">
+                  <a href="home.php?acao=editar_alunos" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>
                     <p>PDV</p>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a href="../pages/charts/flot.html" class="nav-link">
+                  <a href="home.php?acao=editar_alunos" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>
                     <p>Fluxo de Caixa</p>
                   </a>

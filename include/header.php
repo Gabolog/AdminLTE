@@ -155,7 +155,7 @@
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a href="home.php?acao=editar_alunos" class="nav-link">
+                  <a href="home.php?acao=turmas" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>
                     <p>Turmas</p>
                   </a>

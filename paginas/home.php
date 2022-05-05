@@ -4,6 +4,8 @@ include_once('../include/header.php');
 if (isset($_GET['acao'])) {
     $acao = $_GET['acao'];
     if ($acao == 'bemvindo') {
+        include_once('../paginas/conteudo/blank.php');
+    } elseif ($acao == 'cadastro_turmas') {
         include_once('../paginas/conteudo/cadastro_turmas.php');
     } elseif ($acao == 'alunos') {
         include_once('../paginas/conteudo/alunos.php');
@@ -11,7 +13,7 @@ if (isset($_GET['acao'])) {
         include_once('../paginas/conteudo/cadastro_alunos.php');
     } elseif ($acao == 'turmas') {
         include_once('../paginas/conteudo/turmas.php');
-    } elseif ($acao == 'editar_alunos') {
+    } elseif ($acao == 'editar_aluno') {
         include_once('../paginas/conteudo/editar_alunos.php');
     }
 } else {

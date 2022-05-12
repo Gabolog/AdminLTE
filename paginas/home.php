@@ -15,6 +15,10 @@ if (isset($_GET['acao'])) {
         include_once('../paginas/conteudo/turmas.php');
     } elseif ($acao == 'editar_aluno') {
         include_once('../paginas/conteudo/editar_alunos.php');
+    } elseif ($acao == 'estoque') {
+        include_once('../paginas/conteudo/estoque.php');
+    } elseif ($acao == 'cadastro_estoque') {
+        include_once('../paginas/conteudo/cadastro_estoque.php');
     }
 } else {
     include_once('../paginas/conteudo/blank.php');

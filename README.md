@@ -3,15 +3,23 @@ objetivos:
 <p>Criar paginas baseadas na versão de sistema anterior (20%)</p>
 # Módulos
 
-| inicio                                                     |     |
+  | inicio                                                     |     |
 | ---------------------------------------------------------- | --- |
 | Login no Sistema e Recuperação de Senha                    | 50% |
-| Cadastro de Usuários                                       |     |
-|   1.1 Usuarios cadastrados recentemente                    |     |
-| Cadastro de Produtos                                       |     |
+|Alunos                                                      | 100% |
+|   Cadastro Alunos                                          | 100% |
+|   Listagem Alunos                                          | 100% |
+|   Editar Alunos                                            | 100% |
+|Turma                                                       | 100% |
+|   Cadastro de Turma                                        | 100% |
+|   Listagem de Turma                                        | 100% |
+|   Editar Turma                                             | 100% |
+|Estoque                                                     | 100% |
+|   Cadastro de Estoq                                        | 100% |
+|   Listagem de Estoque                                      | 100% |
+|   Editar de Estoque                                        | 100% |
 | Cadastro de Professores                                    |     |
 | Perfil de Professores                                      |     |
-| Cadastro de Clientes                                       | 80% |
 | Perfil de Clientes                                         |     |
 | PDV Padrão                                                 |     |
 | PDV Diferencial (PDV com mais recursos)                    |     |

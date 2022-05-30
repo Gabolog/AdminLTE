@@ -75,12 +75,12 @@
                       </thead>
                       <tbody>
                         <tr class="table-dark">
-                          <td>1.</td>
-                          <td>DSX</td>
-                          <td>08:00-11:00</td>
-                          <td>21</td>
-                          <td>2</td>
-                          <td>Inativo</td>
+                          <td>200</td>
+                          <td>Nankin</td>
+                          <td></td>
+                          <td>Unidade(s)</td>
+                          <td>1</td>
+                          <td>Copic</td>
 
                           <td>
                             <div class="btn-group">
@@ -121,27 +121,8 @@
   <section class="content">
 
     <!-- Default box -->
-    <div class="card">
-      <div class="card-header">
-        <h3 class="card-title">vazio</h3>
-
-        <div class="card-tools">
-          <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
-            <i class="fas fa-minus"></i>
-          </button>
-          <button type="button" class="btn btn-tool" data-card-widget="remove" title="Remove">
-            <i class="fas fa-times"></i>
-          </button>
-
-        </div>
-      </div>
-      <div class="card-body">
-        Pagina limpa
-      </div>
-      <!-- /.card-body -->
-      <div class="card-footer">
-        Rodapé
-      </div>
+    
+     
       <!-- /.card-footer-->
     </div>
     <!-- /.card -->

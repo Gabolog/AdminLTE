@@ -13,7 +13,7 @@ if (isset($_GET['acao'])) {
         include_once('../paginas/conteudo/cadastro_alunos.php');
     } elseif ($acao == 'turmas') {
         include_once('../paginas/conteudo/turmas.php');
-    } elseif ($acao == 'editar_aluno') {
+    } elseif ($acao == 'editar_alunos') {
         include_once('../paginas/conteudo/editar_alunos.php');
     } elseif ($acao == 'estoque') {
         include_once('../paginas/conteudo/estoque.php');
@@ -25,3 +25,4 @@ if (isset($_GET['acao'])) {
 }
 
 include_once('../include/footer.php');
+

@@ -47,7 +47,7 @@
                     <!--divide um do lado do outro-->
                     <div class="form-group col-md-8">
                       <label for="studentName">Nome do Responsável</label>
-                      <input type="email" class="form-control" id="exampleInputEmail1" value="Nomepaiteste1">
+                      <input type="text" class="form-control" id="exampleInputEmail1" value="Nomepaiteste1">
                     </div>
                     <div class="form-group col-md-4">
                       <label for="studentName">Data de Nascimento</label>
@@ -62,11 +62,22 @@
                     <!--divide um do lado do outro-->
                     <div class="form-group col-md-6">
                       <label for="studentName">CPF</label>
-                      <input type="email" class="form-control" id="exampleInputEmail1" value="111.111.111-11">
+                      <input type="text" class="form-control" id="exampleInputEmail1" value="111.111.111-11">
                     </div>
                     <div class="form-group col-md-6">
                       <label for="studentName">RG</label>
-                      <input type="email" class="form-control" id="exampleInputEmail1" value="111.111.111-11">
+                      <input type="text" class="form-control" id="exampleInputEmail1" value="111.111.111-11">
+                    </div>
+                    <div class="form-group col-md-6">
+                      <label for="exampleInputFile">Foto Aluno</label>
+                      <div class="input-group">
+                        <div class="custom-file">
+                          <input type="file" class="custom-file-input" id="exampelInputFIle">
+                          <label class="custom-file-label" for="exampleInputFile">Escolher Imagem</label>
+                        </div>
+                        
+
+                      </div>
                     </div>
                   </div>
                 </div>

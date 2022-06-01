@@ -68,7 +68,7 @@
                           <th>EAN(cod. de barras)</th>
                           <th>Tipo</th>
                           <th>Unidades por embalagem</th>
-                          <th>Fa</th>
+                          <th>Fabricante</th>
 
                           <th style="width: 40px">Ação</th>
                         </tr>
@@ -77,7 +77,7 @@
                         <tr class="table-dark">
                           <td>200</td>
                           <td>Nankin</td>
-                          <td></td>
+                          <td>1111111111</td>
                           <td>Unidade(s)</td>
                           <td>1</td>
                           <td>Copic</td>
@@ -90,12 +90,12 @@
                           </td>
                         </tr>
                         <tr>
-                          <td>2.</td>
-                          <td>DSX</td>
-                          <td>08:00-11:00</td>
-                          <td>21</td>
-                          <td>2</td>
-                          <td>Ativo</td>
+                          <td>250</td>
+                          <td>Bloco A4</td>
+                          <td>11111111111</td>
+                          <td>Unidade(s)</td>
+                          <td>20</td>
+                          <td>Canson</td>
                           <td>
                             <div class="btn-group">
                               <a href="home.php?acao=editar_turma" class="btn btn-success no-paddings" title="Editar Suprimento"><i class="fas fa-box"></i></a>

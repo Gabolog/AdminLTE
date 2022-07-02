@@ -172,9 +172,9 @@
               </a>
               <ul class="nav nav-treeview">
                 <li class="nav-item">
-                  <a href="home.php?acao=editar_alunos" class="nav-link">
+                  <a href="home.php?acao=produtos" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>
-                    <p>Cadastrar</p>
+                    <p>Produtos</p>
                   </a>
                 </li>
                 <li class="nav-item">

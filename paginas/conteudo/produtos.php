@@ -5,12 +5,12 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1>Estoque</h1>
+            <h1>Produtos</h1>
           </div>
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="#">Home</a></li>
-              <li class="breadcrumb-item active">Estoque</li>
+              <li class="breadcrumb-item active">Produtos</li>
             </ol>
           </div>
         </div>
@@ -30,14 +30,14 @@
 
                     <div class="col-sm-4 col-md-4">
 
-                      <p class="card-text">Há "x ativos" Suprimentos na unidade</p>
+                      <p class="card-text">Há "x ativos" Produtos na unidade</p>
                     </div>
                     <div class="col-sm-4 col-md-2">
                     </div>
                     <div class="col-sm-4 col-md-3">
                     </div>
                     <div class="col-sm-4 col-md-3">
-                      <a href="home.php?acao=cadastro_estoque" class="btn btn-primary">Cadastrar Suprimento</a>
+                      <a href="home.php?acao=cadastro_produtos" class="btn btn-primary">Cadastrar Produtos</a>
                     </div>
 
                   </div>

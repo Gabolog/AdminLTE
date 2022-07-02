@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html ng-app="app" lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="DrHWapGBJrDfRRzFjJoB45PS88GEVtSqJrVnfMaD">
+
+    <title>SGEA</title>
+
+    <!-- Scripts -->
+    <script src="https://sgea.esbocoartes.com.br/js/app.js"></script>
+    
+    <!-- Fonts -->
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link href="https://sgea.esbocoartes.com.br/css/app.css" rel="stylesheet">
+    <link href="https://sgea.esbocoartes.com.br/css/app2.css" rel="stylesheet">
+
+</head>
+<body>
+    <div id="app">
+        <div id="wrapper">
+            <nav class="navbar-default navbar-static-side" role="navigation">
+                <div class="sidebar-collapse">
+                    <ul class="nav metismenu" id="side-menu">
+                        <li class="nav-header">
+                            <div class="dropdown profile-element">
+                                <img alt="image" class="w-75 mb-3" src="https://sgea.esbocoartes.com.br/images/logo.png"/>
+                                <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                                    <span class="block m-t-xs font-bold">Thiago Ramos</span>
+                                    <span class="text-xs block">Franquia <b class="caret"></b></span>
+                                </a>
+                                <ul class="dropdown-menu animated fadeInRight m-t-xs">
+                                    
+                                    <li>
+                                        <a class="dropdown-item" href="https://sgea.esbocoartes.com.br/logout" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
+                                            <i class="fa fa-sign-out"></i> Sair
+                                        </a>
+                                    </li>
+                                </ul>
+                                <form id="logout-form" action="https://sgea.esbocoartes.com.br/logout" method="POST" style="display: none;">
+                                    <input type="hidden" name="_token" value="DrHWapGBJrDfRRzFjJoB45PS88GEVtSqJrVnfMaD">                                </form>
+                            </div>
+                            <div class="logo-element">
+                                SGEA
+                            </div>
+                        </li>
+                                                    <li>
+                                <a href="https://sgea.esbocoartes.com.br/list/students"><i class="fa fa-user fa-lx mr-2" aria-hidden="true"></i> <span class="nav-label">Alunos</span></a>
+                            </li>
+                                                
+                                                    <li>
+                                <a href="#"><i class="fa fa-book fa-lx mr-2" aria-hidden="true"></i> <span class="nav-label">Suprimentos</span><span class="fa arrow"></span></a>
+                                <ul class="nav nav-second-level collapse">
+                                    <li><a href="https://sgea.esbocoartes.com.br/list/supplies"><i class="fa fa-plus-square fa-lx mr-3" aria-hidden="true"></i> Cadastro</a></li>
+                                    <li><a href="https://sgea.esbocoartes.com.br/list/stock"><i class="fa fa-archive fa-lx mr-3" aria-hidden="true"></i> Estoque</a></li>
+                                </ul>
+                            </li>
+                        
+                                                    <li>
+                                <a href="https://sgea.esbocoartes.com.br/list/classrooms"><i class="fa fa-users fa-lx mr-2" aria-hidden="true"></i> <span class="nav-label">Turmas</span>  </a>
+                            </li>
+                        
+                        
+                                                    <li>
+                                <a href="#"><i class="fa fa-bar-chart fa-lx mr-3" aria-hidden="true"></i> <span class="nav-label">Relatórios</span><span class="fa arrow"></span></a>
+                                <ul class="nav nav-second-level collapse">
+                                    <li>
+                                        <a href="https://sgea.esbocoartes.com.br/report-invoices"><i class="fa fa-file-text-o fa-lx mr-3" aria-hidden="true"></i> Faturas</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://sgea.esbocoartes.com.br/report-sales"><i class="fa fa-area-chart fa-lx mr-3" aria-hidden="true"></i> Vendas</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        
+                                                                                    <li>
+                                    <a href="https://sgea.esbocoartes.com.br/pdv"><i class="fa fa-desktop fa-lx mr-2" aria-hidden="true"></i> <span class="nav-label">PDV</span></a>
+                                </li>
+                                                    
+                                                    <li>
+                                <a href="#"><i class="fa fa-money fa-lx mr-2" aria-hidden="true"></i> <span class="nav-label">Financeiro</span><span class="fa arrow"></span></a>
+                                <ul class="nav nav-second-level collapse">
+                                    <li>
+                                        <a href="https://sgea.esbocoartes.com.br/list/cashier"><i class="fa fa-bar-chart fa-lx mr-3" aria-hidden="true"></i> Fluxo de Caixa</a>
+                                    </li>
+                                </ul>
+                            </li>
+                                                
+                        
+                        
+                    </ul>
+                    
+                    <div class="nav-footer">
+                            <span class="nav-label">&copy; InfinityTI SGEA 2020. INFTI - InfinityTI Soluções de Tecnologia LTDA.</span>
+                    </div>
+
+                </div>
+            </nav>
+        
+            <div id="page-wrapper" class="dashbard-1">
+                <div class="row">
+                    <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
+                        <div class="navbar-header">
+                            <a class="navbar-minimalize minimalize-styl-2 btn btn-primary btn-sidebar" href="#"><i class="fa fa-bars"></i> </a>
+                            <a class="navbar-brand" href="https://sgea.esbocoartes.com.br">SGEA</a>
+                        </div>
+                        <ul class="nav navbar-top-links navbar-right">
+                            <li>
+                                <h3 class="m-r-sm welcome-message">UNIDADE TAQUARA</h3>
+                            </li>
+                            
+                            
+                        </ul>
+                    </nav>
+                </div>
+                
+                <main>
+
+                    
+<script src="https://sgea.esbocoartes.com.br/js/create-supply.js?v=1656773689"></script>
+
+<div ng-controller="SupplyCreateController" ng-init="init()">
+
+    <div class="row wrapper border-bottom white-bg page-heading">
+        <div class="col-lg-10">
+            <h2>Cadastro de Suprimento</h2>
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <a href="https://sgea.esbocoartes.com.br/home">Home</a>
+                </li>
+                <li class="breadcrumb-item">
+                    <a href="https://sgea.esbocoartes.com.br/list/supplies">Suprimentos</a>
+                </li>
+                <li class="breadcrumb-item active">
+                    <strong>Cadastro de Novo Suprimento</strong>
+                </li>
+            </ol>
+        </div>
+        <div class="col-lg-2">
+
+        </div>
+    </div>
+
+    <div class="row margin-top-10 animated fadeInUp">
+        <div class="col-lg-12">
+            <form name="supplyRegistration">
+
+                <div class="ibox">
+                    <div class="ibox-title">
+                        <h3 class="m-t-none m-b">Dados do Produto</h3>
+                    </div>
+                    <div class="ibox-content">
+                        <div class="form-row">
+
+                            <div class="form-group col-md-8">
+                                <label>Nome do Produto</label>
+                                <input required type="text" ng-model="supply.name" class="form-control" placeholder="Nome do Produto">
+                            </div>
+                
+                            <div class="form-group col-md-4">
+                                <label>Fabricante</label>
+                                <input required type="text" ng-model="supply.manufacturer" class="form-control" placeholder="Fabricante">
+                            </div>
+                
+                        </div>
+                    
+                        <div class="form-row">
+                
+                            <div class="form-group col-md-3">
+                                <label>Cód. Barras</label>
+                                <input required type="text" ng-model="supply.eanCode" class="form-control" placeholder="Cód. Barras">
+                            </div>
+
+                            <div class="form-group col-md-3">
+                                <label>Unidade de Medida</label><br/>
+                                <select class="form-control m-b" ng-model="supply.countType">
+                                    <option value="Unidade(s)">Unidade(s)</option>
+                                    <option value="Grama(s)">Grama(s)</option>
+                                    <option value="Kilo(s)">Kilo(s)</option>
+                                    <option value="Litro(s)">Litro(s)</option>
+                                    <option value="Centímetros(s)">Centímetros(s)</option>
+                                    <option value="Metro(s)">Metro(s)</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group col-md-3">
+                                <label>Quantidade em Medida</label>
+                                <input required type="number" ng-model="supply.unitsPerProduct" class="form-control" placeholder="Quantidade em Medida">
+                            </div>
+                
+                        </div>
+
+                        <div class="form-group">
+                            <label for="cpf">Descrição</label>
+                            <textarea class="form-control" rows="10" ng-model="supply.description" placeholder="Descrição"></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <button ng-disabled="btnLoader" ng-click="save(supply)" type="submit" class="btn btn-primary"><i ng-show="btnLoader" class="fa fa-cog fa-spin fa-fw"></i> Salvar Cadastro</button>
+                        </div>
+
+                    </div>
+                </div>
+                
+            </form>
+        </div>
+    </div>
+
+</div>
+
+
+                </main>
+
+            </div>
+        </div>
+    </div>
+</body>   
+
+</html>

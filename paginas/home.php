@@ -19,6 +19,10 @@ if (isset($_GET['acao'])) {
         include_once('../paginas/conteudo/estoque.php');
     } elseif ($acao == 'cadastro_estoque') {
         include_once('../paginas/conteudo/cadastro_estoque.php');
+    }elseif ($acao == 'lista de suprimentos') {
+        include_once('../paginas/conteudo/suprimentos.php');
+    } elseif ($acao == 'cadastro_estoque') {
+        include_once('../paginas/conteudo/cadastro_suprimentos.php');
     }
 } else {
     include_once('../paginas/conteudo/blank.php');

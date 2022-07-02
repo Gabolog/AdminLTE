@@ -15,14 +15,14 @@ if (isset($_GET['acao'])) {
         include_once('../paginas/conteudo/turmas.php');
     } elseif ($acao == 'editar_alunos') {
         include_once('../paginas/conteudo/editar_alunos.php');
+    }elseif ($acao == 'produtos') {
+        include_once('../paginas/conteudo/produtos.php');
+    } elseif ($acao == 'cadastro_produtos') {
+        include_once('../paginas/conteudo/cadastro_produtos.php');
     } elseif ($acao == 'estoque') {
         include_once('../paginas/conteudo/estoque.php');
     } elseif ($acao == 'cadastro_estoque') {
         include_once('../paginas/conteudo/cadastro_estoque.php');
-    }elseif ($acao == 'lista de suprimentos') {
-        include_once('../paginas/conteudo/suprimentos.php');
-    } elseif ($acao == 'cadastro_estoque') {
-        include_once('../paginas/conteudo/cadastro_suprimentos.php');
     }
 } else {
     include_once('../paginas/conteudo/blank.php');

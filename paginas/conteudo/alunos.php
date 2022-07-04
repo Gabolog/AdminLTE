@@ -14,49 +14,72 @@
             </ol>
           </div>
         </div>
-      </div>
+      </div><!-- /.container-fluid -->
     </section>
+
     <section class="content">
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-12">
             <div class="card">
               <div class="card-header">
-
-                <div class="card-body p-0">
-                  </br>
-                  <div class="row">
-
-                    <div class="col-md-10">
-
-                      <p class="card-text">Há "x ativos" aluno(s) ativos de "x total"</p>
-                    </div>
-                    </br>
-                    </br>
+                <div class="row text-right">                  
+                  <div class="card-body text-right">                                     
                     <div class="">
-
-                      <a href="home.php?acao=cadastro_alunos" class="btn btn-primary">Cadastrar Aluno</a>
-                    </div>
-
-                  </div>
-
-
-                  <!-- começo da tabela -->
-                  <div class="form-row">
-                    <div class="form-group col-md-8">
+                      <a href="home.php?acao=cadastro_alunos" class="btn btn-primary">Cadastrar Alunos</a>
                     </div>
                   </div>
+                </div>                
+                <div class="card-header">
 
-                  <div class="card-header">
-
-                    <h3 class="card-title">
-                      <p class="card-text">Listagem</p>
-                    </h3>
-                  </div>
+                  <h3 class="card-title">
+                    <p class="card-text">Listagem</p>
+                  </h3>
+                </div>
+                <div class="card-body">
 
 
                   <!-- /.card-header -->
                   <div class="card-body p-0">
+                    </br>
+                    <div class="row ">
+
+
+                      <div class="form-group md">
+                        <label>
+                          <select class="form-control">
+                            <option value="10">10</option>
+                            <option value="25">25</option>
+                            <option value="50">50</option>
+                            <option value="100">100</option>
+                          </select>
+                        </label>
+                      </div>
+                      <div class="form-group col-md-6">
+                        resultados por página
+                      </div>
+                      <div id="DataTables_Table_0_filter" class="form-group col-md">
+                        <label>
+                          <input type="search" class="form-control form-control-sm" placeholder="Pesquisar..." aria-controls="DataTables_Table_0">
+                        </label>
+                        <div class="btn-group col-sm-2">
+                          <a type="button" class="btn btn-default " href="#">
+                            Copy</a>
+                          <a type="button" class="btn btn-default" href="#">
+                            CSV</a>
+                          <a type="button" class="btn btn-default" href="#">
+                            PDF</a>
+                          <!-- <a class="dt-button buttons-pdf buttons-html5" tabindex="0" aria-controls="DataTables_Table_0" href="#">
+                              <span>PDF</span>
+                            </a> -->
+                        </div>
+                      </div>
+                    </div>
+                    </label>
+
+                    <div class="dataTables_info" id="DataTables_Table_0_info" role="status" aria-live="polite">
+                      Mostrando de x até y de z registros
+                    </div>
                     <table class="table">
                       <thead>
                         <tr role="sort row"> falta SORT aqui

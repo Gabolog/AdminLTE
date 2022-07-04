@@ -138,7 +138,14 @@
           <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
             <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
+            <li class="nav-item">
+              <a href="home.php?acao=principal" class="nav-link">
+                <i class="fas fa-home nav-icon"></i>
+                <p>Home</p>
+              </a>
+            </li>
             <li class="nav-item menu-open">
+
               <a href="#" class="nav-link active">
                 <!--tirar o "active" para apagar botão-->
                 <i class="nav-icon fas fa-th"></i>

@@ -5,6 +5,8 @@ if (isset($_GET['acao'])) {
     $acao = $_GET['acao'];
     if ($acao == 'bemvindo') {
         include_once('../paginas/conteudo/blank.php');
+    } elseif ($acao == 'principal') {
+        include_once('../paginas/conteudo/principal.php');
     } elseif ($acao == 'cadastro_turmas') {
         include_once('../paginas/conteudo/cadastro_turmas.php');
     } elseif ($acao == 'alunos') {

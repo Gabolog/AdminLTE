@@ -23,13 +23,13 @@
           <div class="col-md-12">
             <div class="card">
               <div class="card-header">
-                <div class="row text-right">                  
-                  <div class="card-body text-right">                                     
+                <div class="row text-right">
+                  <div class="card-body text-right">
                     <div class="">
                       <a href="home.php?acao=cadastro_estoque" class="btn btn-primary">Cadastrar Estoque</a>
                     </div>
                   </div>
-                </div>                
+                </div>
                 <div class="card-header">
 
                   <h3 class="card-title">
@@ -82,66 +82,114 @@
                     <div class="dataTables_info" id="DataTables_Table_0_info" role="status" aria-live="polite">
                       Mostrando de x até y de z registros
                     </div>
-                    <table class="table">
-                      <thead>
-                        <tr role="sort row">
-                          <!-- inicio do table -->
+                    </br>
 
-                          <th class="sorting sorting_asc" tabindex="0" aria-controls="example2" rowspan="1" colspan="1" aria-label="Rendering engine: activate to sort column descending" aria-sort="ascending" style="width: 10px;">ID</th>
+                    <div class="card-body">
+                      <div class="table-responsive">
+                        <table class="table table-bordered table-responsive table-hover">
+                          <thead>
+                            <tr>
+                              <!-- inicio do table -->
 
-                          <th>Produto/Fabricante</th>
-                          <th>Estoque Disponivel</th>
-                          <th>Lote</th>
-                          <th>Valor de Compra</th>
-                          <th>Valor de Venda</th>
-                          <th>Data de Entrada</th>
+                              <th class="sorting sorting_asc" tabindex="0" aria-controls="example2" rowspan="1" colspan="1" aria-label="Rendering engine: activate to sort column descending" aria-sort="ascending" style="width: 10px;">ID</th>
 
-                          <th style="width: 40px">Ação</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr class="table-dark">
-                          <td>111</td>
-                          <td>Taxa de Matricula - EA</td>
-                          <td>9999999</td>
-                          <td>01/10/2022</td>
-                          <td>R$50,00</td>
-                          <td>R$50,00</td>
-                          <td>01/10/2022</td>
+                              <th>Produto/Fabricante</th>
+                              <th>Estoque Disponivel</th>
+                              <th>Lote</th>
+                              <th>Valor de Compra</th>
+                              <th>Valor de Venda</th>
+                              <th>Data de Entrada</th>
+
+                              <th style="width: 40px">Ação</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>111</td>
+                              <td>Taxa de Matricula - EA</td>
+                              <td>9999999</td>
+                              <td>01/10/2022</td>
+                              <td>R$50,00</td>
+                              <td>R$50,00</td>
+                              <td>01/10/2022</td>
 
 
-                          <td>
-                            <div class="btn-group">
-                              <a href="home.php?acao=editar_estoque" class="btn btn-success no-paddings" title="Editar"><i class="fas fa-box"></i></a>
+                              <td>
+                                <div class="btn-group">
+                                  <button type="button" title="Inserção" class="btn btn-default">
+                                    <i class="fas fa-arrow-down"></i>
+                                  </button>
+                                  <button type="button" title="Retirada" class="btn btn-default">
+                                    <i class="fas fa-arrow-up"></i>
+                                  </button>
+                                  <button type="button" title="Movimentação" class="btn btn-default">
+                                    <i class="fas fa-list"></i>
+                                  </button>
+                                </div>
+                                <div class="btn-group-center">
+                                  <button type="button" title="Editar" class="btn btn-default">
+                                    <i class="fas fa-edit"></i>
+                                  </button>
+                                  <button type="button" title="Desativar" class="btn btn-default">
+                                    <i class="fas fa-exclamation"></i>
+                                  </button>
+                                  <button type="button" title="Excluir" class="btn btn-default">
+                                    <i class="fas fa-times"></i>
+                                  </button>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>111</td>
+                              <td>Taxa de Matricula</td>
+                              <td>9999999</td>
+                              <td>01/10/2022</td>
+                              <td>R$50,00</td>
+                              <td>R$50,00</td>
+                              <td>01/10/2022</td>
+                              <td>
+                              <div class="btn-group">
+                                  <button type="button" title="Inserção" class="btn btn-default">
+                                    <i class="fas fa-arrow-down"></i>
+                                  </button>
+                                  <button type="button" title="Retirada" class="btn btn-default">
+                                    <i class="fas fa-arrow-up"></i>
+                                  </button>
+                                  <button type="button" title="Movimentação" class="btn btn-default">
+                                    <i class="fas fa-list"></i>
+                                  </button>
+                                </div>
+                                <div class="btn-group-center">
+                                  <button type="button" title="Editar" class="btn btn-default">
+                                    <i class="fas fa-edit"></i>
+                                  </button>
+                                  <button type="button" title="Desativar" class="btn btn-default">
+                                    <i class="fas fa-exclamation"></i>
+                                  </button>
+                                  <button type="button" title="Excluir" class="btn btn-default">
+                                    <i class="fas fa-times"></i>
+                                  </button>
+                                </div>
+                                <!-- versão div botoes anterior 
+                              <div class="btn-group-sm">
+                              <a href="home.php?acao=editar_estoque" class="btn-group" title="Retirada"><i class="fas fa-arrow-down"></i></a>
+                              <a href="home.php?acao=editar_estoque" class="btn-group" title="Retirada"><i class="fas fa-arrow-down"></i></a>
+                              <a href="home.php?acao=editar_estoque" class="btn-group" title="Retirada"><i class="fas fa-arrow-down"></i></a>
+                              <a href="home.php?acao=editar_estoque" class="btn btn no-paddings" title="Inserção"><i class="fas fa-arrow-up"></i></a>
+                              <a href="home.php?acao=editar_estoque" class="btn btn no-paddings" title="Editar"><i class="fas fa-box"></i></a> 
                               <a href="#" class="btn btn-danger no-paddings" title="Excluir"><i class="fas fa-times"></i></a>
-                            </div>
-                          </td>
-                        </tr>
-                        <tr class="table ">
-                          <td>111</td>
-                          <td>Taxa de Matricula - EA</td>
-                          <td>9999999</td>
-                          <td>01/10/2022</td>
-                          <td>R$50,00</td>
-                          <td>R$50,00</td>
-                          <td>01/10/2022</td>
+                              <a href="#" class="btn btn-danger no-paddings" title="Excluir"><i class="fas fa-times"></i></a>
+                              <a href="#" class="btn btn-danger no-paddings" title="Excluir"><i class="fas fa-times"></i></a>
+                              <a href="#" class="btn btn-danger no-paddings" title="Excluir"><i class="fas fa-times"></i></a>
+                            </div> -->
+                              </td>
+                            </tr>
 
 
-                          <td>
-                            <div class="row btn-group-sm col-bg-1">
-                              <a href="home.php?acao=editar_estoque" class="btn btn-success no-paddings" title="Editar"><i class="fas fa-box"></i></a>
-                              <a href="home.php?acao=editar_estoque" class="btn btn-success no-paddings" title="Editar"><i class="fas fa-box"></i></a>
-                              <a href="#" class="btn btn-danger no-paddings" title="Excluir"><i class="fas fa-times"></i></a>
-                              <a href="#" class="btn btn-danger no-paddings" title="Excluir"><i class="fas fa-times"></i></a>
-                              <a href="#" class="btn btn-danger no-paddings" title="Excluir"><i class="fas fa-times"></i></a>
-                              <a href="#" class="btn btn-danger no-paddings" title="Excluir"><i class="fas fa-times"></i></a>
-                            </div>
-                          </td>
-                        </tr>
-                        
-
-                      </tbody>
-                    </table>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
                   </div>
                 </div>
 

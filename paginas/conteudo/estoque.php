@@ -102,10 +102,30 @@
 
                               <th style="width: 40px">Ação</th>
                             </tr>
+                            <script type="text/javascript">
+                              function setNewImage() {
+                                document.getElementById("img1").src = "../dist/img/user1.png";
+
+                              }
+
+                              function setOldImage() {
+                                document.hideElementById("img1").src = "../dist/img/user1.png";
+                              }
+                            </script>
                           </thead>
                           <tbody>
                             <tr>
-                              <td>111</td>
+                              <td class=""><img id="img1" onmouseover="setNewImage()" onmouseout="setOldImage()" width="125" src="none">
+                                
+                              </td>
+                              <td class=""><img id="img1" onmouseover="none()" onmouseout="setNewImage()" width="125" src="none">
+                                <a href="">
+                                  <div class="">
+                                    img
+                                  </div>
+                                </a>
+                              </td>
+                              
                               <td>Taxa de Matricula - EA</td>
                               <td>9999999</td>
                               <td>01/10/2022</td>
@@ -148,7 +168,7 @@
                               <td>R$50,00</td>
                               <td>01/10/2022</td>
                               <td>
-                              <div class="btn-group">
+                                <div class="btn-group">
                                   <button type="button" title="Inserção" class="btn btn-default">
                                     <i class="fas fa-arrow-down"></i>
                                   </button>

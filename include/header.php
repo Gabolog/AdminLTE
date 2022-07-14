@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>WEBEA | Teste</title>
-
+  <script src="../dist/js/jsea.js"></script>
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
   <!-- Font Awesome -->
@@ -193,7 +193,7 @@
               </ul>
             </li>
             <li class="nav-item">
-              <a href="home.php?acao=editar_alunos" class="nav-link" class="nav-link active">
+              <a href="#" class="nav-link" class="nav-link active">
                 <i class="nav-icon fas fa-chart-pie"></i>
                 <p>
                   Relatórios
@@ -203,14 +203,14 @@
               </a>
               <ul class="nav nav-treeview">
                 <li class="nav-item">
-                  <a href="home.php?acao=editar_alunos" class="nav-link">
+                  <a href="home.php?acao=faturas" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>
                     <span class="badge badge-info right">2</span>
                     <p>Faturas</p>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a href="home.php?acao=editar_alunos" class="nav-link">
+                  <a href="home.php?acao=vendas" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>
                     <span class="badge badge-info right">4</span>
                     <p>Vendas</p>

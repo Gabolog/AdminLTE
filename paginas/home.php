@@ -25,6 +25,12 @@ if (isset($_GET['acao'])) {
         include_once('../paginas/conteudo/estoque.php');
     } elseif ($acao == 'cadastro_estoque') {
         include_once('../paginas/conteudo/cadastro_estoque.php');
+    } elseif ($acao == 'vendas') {
+        include_once('../paginas/conteudo/vendas.php');
+    } elseif ($acao == 'faturas') {
+        include_once('../paginas/conteudo/faturas.php');
+    } elseif ($acao == 'fluxo_de_caixa') {
+        include_once('../paginas/conteudo/fluxo_caixa.php');
     }
 } else {
     include_once('../paginas/conteudo/blank.php');

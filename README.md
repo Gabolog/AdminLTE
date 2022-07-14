@@ -10,9 +10,10 @@
 |cadastro de produtos                               |✔️ |
 |turmas                                                         |✔️ |
 |cadastro de turmas                                             |✔️ |
-|Estoque                                                        |✔️  |
-|cadastro de estoque                                        |✔️  |
-|relatorio                                                  |aba |
+|Estoque                                                        | |
+|cadastro de estoque                                        | |
+|relatorio                                                  | |
+|vendas                                                 | |
 |fluxo de caixa                                             | |
 |Vendas                                                     | |
 |cadastro de usuario?                                   |?|

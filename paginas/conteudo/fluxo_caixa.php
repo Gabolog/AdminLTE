@@ -57,7 +57,7 @@
                           </select>
                         </label>
                       </div>
-                      <div class="form-group col-md-5">
+                      <div class="form-group col-md-6">
                         resultados por página
                       </div>
                       <div id="DataTables_Table_0_filter" class="form-group col-md">
@@ -82,11 +82,11 @@
                     <div class="dataTables_info" id="DataTables_Table_0_info" role="status" aria-live="polite">
                       Mostrando de x até y de z registros
                     </div>
-                    
+                    </br>
 
                     <div class="card-body">
                       <div class="table-responsive">
-                        <table class="table  ">
+                        <table class="table table-bordered table-responsive table-hover">
                           <thead>
                             <tr>
                               <!-- inicio do table -->

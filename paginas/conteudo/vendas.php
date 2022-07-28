@@ -116,10 +116,10 @@
                     <div class="card-body p-0">
                       </br>
                       <div class="row">
-                        <div class="col-md-4">
+                        <div class="col-md-3">
                           <div class="card card-primary">
                             <div class="card-header">
-                              <h3 class="card-title">Faturamento Previstos</h3>
+                              <h3 class="card-title">Total de Vendas (TODOS)(com troco)</h3>
                               <div class="card-tools">
                                 <button type="button" class="btn btn-tool" data-card-widget="card-refresh" data-source="widgets.html" data-source-selector="#card-refresh-content" data-load-on-init="false">
                                   <i class="fas fa-sync-alt"></i>
@@ -137,10 +137,10 @@
                             </div>
                           </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-3">
                           <div class="card card-primary">
                             <div class="card-header">
-                              <h3 class="card-title">Recebimentos(TODOS)</h3>
+                              <h3 class="card-title">Total Dinheiro (TODOS)(com troco)</h3>
                               <div class="card-tools">
                                 <button type="button" class="btn btn-tool" data-card-widget="card-refresh" data-source="widgets.html" data-source-selector="#card-refresh-content" data-load-on-init="false">
                                   <i class="fas fa-sync-alt"></i>
@@ -158,10 +158,31 @@
                             </div>
                           </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-3">
                           <div class="card card-primary">
                             <div class="card-header">
-                              <h3 class="card-title">Ticket Médio Faturamento</h3>
+                              <h3 class="card-title">Total Crédito</h3>
+                              <div class="card-tools">
+                                <button type="button" class="btn btn-tool" data-card-widget="card-refresh" data-source="widgets.html" data-source-selector="#card-refresh-content" data-load-on-init="false">
+                                  <i class="fas fa-sync-alt"></i>
+                                </button>
+                                <button type="button" class="btn btn-tool" data-card-widget="maximize">
+                                  <i class="fas fa-expand"></i>
+                                </button>
+                                <button type="button" class="btn btn-tool" data-card-widget="collapse">
+                                  <i class="fas fa-minus"></i>
+                                </button>
+                              </div>
+                            </div>
+                            <div class="card-body">
+                              <h2> R$ 0.00</h2>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-3">
+                          <div class="card card-primary">
+                            <div class="card-header">
+                              <h3 class="card-title">Total Débito</h3>
                               <div class="card-tools">
                                 <button type="button" class="btn btn-tool" data-card-widget="card-refresh" data-source="widgets.html" data-source-selector="#card-refresh-content" data-load-on-init="false">
                                   <i class="fas fa-sync-alt"></i>
@@ -186,10 +207,11 @@
                           <span><i class="fas fa-info-circle"></i></span>Os totais de faturamento previsto, recebimentos e ticket médio estão disponíveis apenas na opção de tipo de pgto "TODOS" no campo de filtro acima.
                         </div>
                       </div>
+
                       </br>
                       <!--paragrafo-->
                       <div class="row ">
-                        <div class="form-group md">
+                        <div class="form-group ">
                           <label>
                             <select class="form-control">
                               <option value="10">10</option>
@@ -198,28 +220,29 @@
                               <option value="100">100</option>
                             </select>
                           </label>
-                        </div>
-                        <div class="form-group col-md-6">
-                          resultados por página
-                        </div>
-                        <div class="form-group col-md">
+
+
+                          <span>
+                            por página
+                          </span>
+
+
                           <label>
                             <input type="search" class="form-control form-control-sm" placeholder="Pesquisar..." aria-controls="DataTables_Table_0">
                           </label>
-                          <div class="btn-group col-sm-2">
-                            <a type="button" class="btn btn-default " href="#">
-                              Copy</a>
-                            <a type="button" class="btn btn-default" href="#">
-                              CSV</a>
-                            <a type="button" class="btn btn-default" href="#">
-                              PDF</a>
-                            <!-- <a class="dt-button buttons-pdf buttons-html5" tabindex="0" aria-controls="DataTables_Table_0" href="#">
+
+                          <a type="button" class="btn btn-default " href="#">
+                            Copy</a>
+                          <a type="button" class="btn btn-default" href="#">
+                            CSV</a>
+                          <a type="button" class="btn btn-default" href="#">
+                            PDF</a>
+                          <!-- <a class="dt-button buttons-pdf buttons-html5" tabindex="0" aria-controls="DataTables_Table_0" href="#">
                                                 <span>PDF</span>
                                                 </a> -->
-                          </div>
+
                         </div>
                       </div>
-                      </label>
                       <!--paragrafo-->
                       <div class="dataTables_info">
                         Mostrando de x até y de z registros
@@ -232,37 +255,36 @@
                               <tr>
                                 <!-- inicio do table -->
 
-                                <th>Referência</th>
-                                <th>Data de Vencimento</th>
-                                <th>Aluno</th>
-                                <th>Curso</th>
-                                <th>Valor Total</th>
+                                <th>Data da Venda</th>
+                                <th>Tipo</th>
+                                <th>Cartão B.</th>
+                                <th>V. Total</th>
+                                <th>V. Dinheiro</th>
+                                <th>V. Cartão</th>
+                                <th>Troco</th>
                                 <th>Desconto</th>
-                                <th>Pgtos</th>
-                                <th>Status</th>
-                                <th>Saldo</th>
+                                <th>Estorno</th>
+                                <th>Usuário</th>
                               </tr>
-
+                              
                             </thead>
                             <tbody>
                               <tr>
-
-
-                                <td>10/2022</td>
-                                <td>10/10/2022</td>
-                                <td>Evandro teste</td>
-                                <td>Realismo</td>
-                                <td>R$280,00</td>
-                                <td>R$20,00</td>
-                                <td>
-                                  <small>
-                                    <a type="button" title="
-Pago: R$ 260,00 em DÉBITO 
-Data Pgto: 10/10/2022 15:48:51 
-Troco: R$ 0,00" class="btn btn-app">
-                                      <i class="fas fa-eye"></i>
-                                      Visualisar
-                                    </a>
+                                
+                                <th>10/10/2022 10:10:50</th>
+                                <th>DINHEIRO</th>
+                                <th>-</th>
+                                <th>r$ 10,00</th>
+                                <th>r$ 10,00</th>
+                                
+                                <th>-</th>
+                                <th>-</th>
+                                <th>-</th>
+                                <th>NÃO</th>
+                                <th>Felipe Teste</th>
+                                
+                                
+                                
                                     <!-- <span class="card card-body">
                                       <strong>Pago: </strong>
                                       R$ 202,50 em
@@ -276,35 +298,41 @@ Troco: R$ 0,00" class="btn btn-app">
                                         R$ 0,00
                                       </span> -->
 
-                                  </small>
-                                </td>
-                                <td>Pago</td>
-                                <td>R$0.00</td>
+                                  
+                                
                               </tr>
                             <tbody>
-                              <tr>
+                            <tr>
+                                
+                                <th>10/10/2022 10:10:50</th>
+                                <th>DINHEIRO</th>
+                                <th>-</th>
+                                <th>r$ 10,00</th>
+                                <th>r$ 10,00</th>
+                                
+                                <th>-</th>
+                                <th>-</th>
+                                <th>-</th>
+                                <th>NÃO</th>
+                                <th>Felipe Teste</th>
+                                
+                                
+                                
+                                    <!-- <span class="card card-body">
+                                      <strong>Pago: </strong>
+                                      R$ 202,50 em
+                                      <strong class="">DÉBITO</strong>
+                                      <br>
+                                      <strong>Data Pgto: </strong>
+                                      10/10/2022 15:48:51
+                                      <br>
+                                      <span class="">
+                                        <strong>Troco: </strong>
+                                        R$ 0,00
+                                      </span> -->
 
-
-                                <td>10/2022</td>
-                                <td>10/10/2022</td>
-                                <td>Felipe teste</td>
-                                <td>Cartoon</td>
-                                <td>R$280,00</td>
-                                <td>R$30,00</td>
-                                <td>
-                                  <small>
-                                    <a type="button" title="
-Pago: R$ 250,00 em DÉBITO 
-Data Pgto: 10/10/2022 15:48:51 
-Troco: R$ 0,00" class="btn btn-app">
-                                      <i class="fas fa-eye"></i>
-                                      Visualizar
-                                    </a>
-
-                                  </small>
-                                </td>
-                                <td>Pago</td>
-                                <td>R$0.00</td>
+                                  
+                                
                               </tr>
                               <!-- versão div botoes anterior 
                                                               <div class="btn-group-sm">

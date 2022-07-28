@@ -95,7 +95,7 @@
                         </tr>
                       </thead>
                       <tbody>
-                        <tr class="table-dark">
+                        <tr class="tbaluno table-dark">
                           <td>1.</td>
                           <td>20220413</td>
                           <td>Nometeste1</td>

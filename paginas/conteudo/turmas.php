@@ -56,9 +56,8 @@
                   </div>
 
 
-                  <!-- /.card-header -->
-                  <div class="card-body p-0">
-                    <table class="table">
+                  <div class="">
+                    <table class="table table-bordered  table-hover">
                       <thead>
                         <tr role="sort row"> falta SORT aqui
 
@@ -73,7 +72,7 @@
                         </tr>
                       </thead>
                       <tbody>
-                        <tr class="table-dark">
+                        <tr class="table table-dark">
                           <td>1.</td>
                           <td>DSX</td>
                           <td>08:00-11:00</td>
@@ -88,13 +87,13 @@
                             </div>
                           </td>
                         </tr>
-                        <tr>
+                        <tr class="table table-dark">
                           <td>2.</td>
                           <td>DSX</td>
                           <td>08:00-11:00</td>
                           <td>21</td>
                           <td>2</td>
-                          <td>Ativo</td>
+                          <td>Inativo</td>
                           <td>
                             <div class="btn-group">
                               <a href="home.php?acao=editar_turma" class="btn btn-success no-paddings" title="Editar Turma"><i class="fas fa-users"></i></a>

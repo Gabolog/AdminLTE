@@ -228,13 +228,13 @@
               </a>
               <ul class="nav nav-treeview">
                 <li class="nav-item">
-                  <a href="home.php?acao=editar_alunos" class="nav-link">
+                  <a href="home.php?acao=PDV" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>
                     <p>PDV</p>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a href="home.php?acao=editar_alunos" class="nav-link">
+                  <a href="home.php?acao=fluxo_de_caixa" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>
                     <p>Fluxo de Caixa</p>
                   </a>

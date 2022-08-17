@@ -31,6 +31,8 @@ if (isset($_GET['acao'])) {
         include_once('../paginas/conteudo/faturas.php');
     } elseif ($acao == 'fluxo_de_caixa') {
         include_once('../paginas/conteudo/fluxo_caixa.php');
+    } elseif ($acao == 'PDV') {
+        include_once('../paginas/conteudo/PDV.php');
     }
 } else {
     include_once('../paginas/conteudo/blank.php');

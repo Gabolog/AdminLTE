@@ -156,6 +156,12 @@
               </a>
               <ul class="nav nav-treeview">
                 <li class="nav-item">
+                  <a href="home.php?acao=rede_social" class="nav-link">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>Rede Social</p>
+                  </a>
+                </li>
+                <li class="nav-item">
                   <a href="home.php?acao=alunos" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>
                     <p>Alunos</p>

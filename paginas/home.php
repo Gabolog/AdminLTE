@@ -33,6 +33,8 @@ if (isset($_GET['acao'])) {
         include_once('../paginas/conteudo/fluxo_caixa.php');
     } elseif ($acao == 'PDV') {
         include_once('../paginas/conteudo/PDV.php');
+    } elseif ($acao == 'rede_social') {
+        include_once('../paginas/conteudo/rede_social.php');
     }
 } else {
     include_once('../paginas/conteudo/blank.php');
